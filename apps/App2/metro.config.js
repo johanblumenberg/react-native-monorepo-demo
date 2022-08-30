@@ -14,4 +14,7 @@ module.exports = {
       },
     }),
   },
+  watchFolders: [
+    '../../node_modules',
+  ],
 };
