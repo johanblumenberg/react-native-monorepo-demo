@@ -20,3 +20,12 @@ The result can be seen in commit https://github.com/johanblumenberg/react-native
 Converting to a monorepo consists of adding a root `package.json` file having a `workspace` definition, and changing some `react-native` paths in the build scripts to point to `node_modules` in the root.
 
 The changes can be seen in commit https://github.com/johanblumenberg/react-native-monorepo-demo/commit/df5204446abc71599867682be7dfd54444cb5328
+
+## Bugs
+
+Bug:
+- https://github.com/facebook/react-native/issues/34565
+
+PRs:
+- https://github.com/facebook/react-native/pull/34566
+- https://github.com/react-native-community/cli/pull/1693
